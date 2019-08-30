@@ -36,7 +36,7 @@ public class RegisterNewUserPage extends PageObject {
             WebElementFacade element = element(By.id(field.getId()));
 
             if(field == Field.SUFFIX || field == Field.STATE) {
-                int index = random.nextInt(element.getSelectOptions().size() - 1) + 1;   // don't get 0 index
+                int index = random.nextInt(element.getSelectOptions().size() - 1) + 1;   // don't get 0 index./
                 element.selectByIndex(index);
             } else if (field == Field.EMAIL) {
                 element.type(
@@ -53,7 +53,7 @@ public class RegisterNewUserPage extends PageObject {
 
     public void clear(Field field) {
         WebElementFacade element = element(By.id(field.getId()));
-        if(element.getTagName().equals("select")) {
+        if(field == Field.SUFFIX || field == Field.STATE) {
             element.selectByIndex(0);    // empty value is 0 index in select fields
         } else {
             element.clear();
