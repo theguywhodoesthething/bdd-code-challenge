@@ -20,10 +20,20 @@ To run with a webdriver other than Chrome, pass the desired driver as an environ
 
     gradlew clean test -Dwebriver.driver=firefox
 
+To run headless, pass `headless=true` as an environment variable.
+
+    gradlew clean test -Dheadless=true
+
 ### Viewing the Report
+
+A report with 100% passing tests and screenshots has been commited with source code and can be viewed at :
+
+    bdd-code-sample\target\site\serenity\index.html
+
+After running the project with `gradlew clean test`, to view the results in a new report :
 
     gradlew aggregate
 
-The report can now be viewed at :
+The report including screenshots can now be viewed at :
 
     bdd-code-sample\target\site\serenity\index.html
