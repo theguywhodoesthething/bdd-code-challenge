@@ -1,0 +1,240 @@
+{
+  "name": "Title Field does not accept numbers",
+  "id": "register-new-user;title-field-does-not-accept-numbers",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given there is a user on the registration page",
+      "duration": 2904,
+      "startTime": "2019-08-29T23:39:53.648-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+          "timeStamp": 1567143596552
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 2,
+          "description": "A01 a06 is on the registration page",
+          "duration": 2894,
+          "startTime": "2019-08-29T23:39:53.657-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+              "timeStamp": 1567143596551
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "description": "And all required fields are filled out except for the title field",
+      "duration": 3721,
+      "startTime": "2019-08-29T23:39:56.552-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "9007598c6a213f519866205e48d78ea61d8f1a24a0165fb67c681b7999e0cf16.png",
+          "timeStamp": 1567143600273
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 4,
+          "description": "A02 fills out all required fields",
+          "duration": 3315,
+          "startTime": "2019-08-29T23:39:56.553-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "b470efa51a62a34f846fb69802dfff1bb12dfb1c64b7297c14d494eac368261f.png",
+              "timeStamp": 1567143599868
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 5,
+          "description": "A03 except for: TITLE",
+          "duration": 402,
+          "startTime": "2019-08-29T23:39:59.869-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "9007598c6a213f519866205e48d78ea61d8f1a24a0165fb67c681b7999e0cf16.png",
+              "timeStamp": 1567143600271
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "description": "And all checkboxes are checked",
+      "duration": 501,
+      "startTime": "2019-08-29T23:40:00.273-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "b42d27de48822a17ca425991d06488e75f6380d38314454c9c8d22cbe5ccec4c.png",
+          "timeStamp": 1567143600774
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 7,
+          "description": "A04 checks all checkboxes",
+          "duration": 499,
+          "startTime": "2019-08-29T23:40:00.274-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "b42d27de48822a17ca425991d06488e75f6380d38314454c9c8d22cbe5ccec4c.png",
+              "timeStamp": 1567143600773
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "description": "When the user fills in the title field with W1LL N0T W0RK",
+      "duration": 466,
+      "startTime": "2019-08-29T23:40:00.775-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "6ac0999f628a33795c398d3055da0705074965bd3d3159810101f0247da64d83.png",
+          "timeStamp": 1567143601241
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 9,
+          "description": "A07 fills out: TITLE, W1LL N0T W0RK",
+          "duration": 464,
+          "startTime": "2019-08-29T23:40:00.776-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "6ac0999f628a33795c398d3055da0705074965bd3d3159810101f0247da64d83.png",
+              "timeStamp": 1567143601240
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "description": "And the user saves the form",
+      "duration": 562,
+      "startTime": "2019-08-29T23:40:01.241-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "23d03b962898c276e5ede60ee1534a8e7409e8bc65e3077c3b6e701991285cf2.png",
+          "timeStamp": 1567143601803
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 11,
+          "description": "A05 saves the form",
+          "duration": 558,
+          "startTime": "2019-08-29T23:40:01.243-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "23d03b962898c276e5ede60ee1534a8e7409e8bc65e3077c3b6e701991285cf2.png",
+              "timeStamp": 1567143601801
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "description": "Then an error message should display indicating that the title field does not accept numbers",
+      "duration": 362,
+      "startTime": "2019-08-29T23:40:01.803-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "23d03b962898c276e5ede60ee1534a8e7409e8bc65e3077c3b6e701991285cf2.png",
+          "timeStamp": 1567143602165
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 13,
+          "description": "Should see title error message",
+          "duration": 360,
+          "startTime": "2019-08-29T23:40:01.804-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "23d03b962898c276e5ede60ee1534a8e7409e8bc65e3077c3b6e701991285cf2.png",
+              "timeStamp": 1567143602164
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "register-new-user",
+    "storyName": "Register New User",
+    "path": "src/test/resources/features/RegisterNewUser.feature",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Features/Register New User",
+    "type": "feature"
+  },
+  "title": "Title Field does not accept numbers",
+  "backgroundTitle": "",
+  "backgroundDescription": "",
+  "tags": [
+    {
+      "name": "Register New User",
+      "type": "feature"
+    }
+  ],
+  "startTime": "2019-08-29T23:39:53.646-06:00[America/Denver]",
+  "duration": 8520,
+  "projectKey": "",
+  "sessionId": "99615ba24d5e57e2c3de13473a757065",
+  "driver": "chrome",
+  "manual": false,
+  "testSource": "Cucumber",
+  "result": "SUCCESS"
+}

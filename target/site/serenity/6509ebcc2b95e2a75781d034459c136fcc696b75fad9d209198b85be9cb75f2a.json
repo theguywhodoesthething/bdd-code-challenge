@@ -1,0 +1,240 @@
+{
+  "name": "Valid Title Field is accepted",
+  "id": "register-new-user;valid-title-field-is-accepted",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given there is a user on the registration page",
+      "duration": 3082,
+      "startTime": "2019-08-29T23:40:02.234-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+          "timeStamp": 1567143605316
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 2,
+          "description": "A01 a06 is on the registration page",
+          "duration": 3074,
+          "startTime": "2019-08-29T23:40:02.241-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+              "timeStamp": 1567143605315
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "description": "And all required fields are filled out except for the title field",
+      "duration": 4056,
+      "startTime": "2019-08-29T23:40:05.316-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "522c26f187325f7089d9f5ccd40c83ba3597644d9f171748a82a561efaf2abc0.png",
+          "timeStamp": 1567143609372
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 4,
+          "description": "A02 fills out all required fields",
+          "duration": 3587,
+          "startTime": "2019-08-29T23:40:05.317-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "649deccf66d0d85ffe766d95e58db731300ab3498f2894ba7001b29d1badb175.png",
+              "timeStamp": 1567143608904
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 5,
+          "description": "A03 except for: TITLE",
+          "duration": 466,
+          "startTime": "2019-08-29T23:40:08.905-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "522c26f187325f7089d9f5ccd40c83ba3597644d9f171748a82a561efaf2abc0.png",
+              "timeStamp": 1567143609371
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "description": "And all checkboxes are checked",
+      "duration": 613,
+      "startTime": "2019-08-29T23:40:09.372-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "6191ff65cd406ae493ce1f36b6730e19a79ce052f52d7dbd6d25a628e42a1c7b.png",
+          "timeStamp": 1567143609985
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 7,
+          "description": "A04 checks all checkboxes",
+          "duration": 610,
+          "startTime": "2019-08-29T23:40:09.374-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "6191ff65cd406ae493ce1f36b6730e19a79ce052f52d7dbd6d25a628e42a1c7b.png",
+              "timeStamp": 1567143609984
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "description": "When the user fills in the title field with WILL WORK",
+      "duration": 579,
+      "startTime": "2019-08-29T23:40:09.985-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "14b2ced131c87cd5def93d9bbbb7f46895104f4d41920c2dc2ad116c858b03f7.png",
+          "timeStamp": 1567143610564
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 9,
+          "description": "A07 fills out: TITLE, WILL WORK",
+          "duration": 576,
+          "startTime": "2019-08-29T23:40:09.986-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "14b2ced131c87cd5def93d9bbbb7f46895104f4d41920c2dc2ad116c858b03f7.png",
+              "timeStamp": 1567143610562
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "description": "And the user saves the form",
+      "duration": 776,
+      "startTime": "2019-08-29T23:40:10.564-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+          "timeStamp": 1567143611340
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 11,
+          "description": "A05 saves the form",
+          "duration": 772,
+          "startTime": "2019-08-29T23:40:10.566-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+              "timeStamp": 1567143611338
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "description": "Then the user should be redirected to the success page",
+      "duration": 32,
+      "startTime": "2019-08-29T23:40:11.341-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+          "timeStamp": 1567143611373
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 13,
+          "description": "Should be on the success page",
+          "duration": 31,
+          "startTime": "2019-08-29T23:40:11.341-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+              "timeStamp": 1567143611372
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "register-new-user",
+    "storyName": "Register New User",
+    "path": "src/test/resources/features/RegisterNewUser.feature",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Features/Register New User",
+    "type": "feature"
+  },
+  "title": "Valid Title Field is accepted",
+  "backgroundTitle": "",
+  "backgroundDescription": "",
+  "tags": [
+    {
+      "name": "Register New User",
+      "type": "feature"
+    }
+  ],
+  "startTime": "2019-08-29T23:40:02.232-06:00[America/Denver]",
+  "duration": 9141,
+  "projectKey": "",
+  "sessionId": "fcb1636d308ecac5ea2f7ee81a935eb1",
+  "driver": "chrome",
+  "manual": false,
+  "testSource": "Cucumber",
+  "result": "SUCCESS"
+}

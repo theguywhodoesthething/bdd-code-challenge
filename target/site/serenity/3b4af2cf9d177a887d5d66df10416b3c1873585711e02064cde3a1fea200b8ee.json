@@ -1,0 +1,208 @@
+{
+  "name": "Suffix Field is not required",
+  "id": "register-new-user;suffix-field-is-not-required",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given there is a user on the registration page",
+      "duration": 3333,
+      "startTime": "2019-08-29T23:39:45.661-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+          "timeStamp": 1567143588994
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 2,
+          "description": "A01 a06 is on the registration page",
+          "duration": 3324,
+          "startTime": "2019-08-29T23:39:45.668-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+              "timeStamp": 1567143588992
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "description": "And all required fields are filled out except for the suffix field",
+      "duration": 3341,
+      "startTime": "2019-08-29T23:39:48.994-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "4d81d843bfc4223c21b3db1cf454c6fe296f080d73f3985861593a47579daa7e.png",
+          "timeStamp": 1567143592335
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 4,
+          "description": "A02 fills out all required fields",
+          "duration": 2920,
+          "startTime": "2019-08-29T23:39:48.994-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "bb69bd1d0820d9392d4ca698aa59ec7dd085bb15514a7f55b797b237445b13c2.png",
+              "timeStamp": 1567143591914
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 5,
+          "description": "A03 except for: SUFFIX",
+          "duration": 418,
+          "startTime": "2019-08-29T23:39:51.915-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "4d81d843bfc4223c21b3db1cf454c6fe296f080d73f3985861593a47579daa7e.png",
+              "timeStamp": 1567143592333
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "description": "And all checkboxes are checked",
+      "duration": 532,
+      "startTime": "2019-08-29T23:39:52.335-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "a9c7172767ccc2a883b37804dbea3a43aca284219287182843720f0216d5eecd.png",
+          "timeStamp": 1567143592866
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 7,
+          "description": "A04 checks all checkboxes",
+          "duration": 529,
+          "startTime": "2019-08-29T23:39:52.336-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "a9c7172767ccc2a883b37804dbea3a43aca284219287182843720f0216d5eecd.png",
+              "timeStamp": 1567143592865
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "description": "When the user saves the form",
+      "duration": 682,
+      "startTime": "2019-08-29T23:39:52.867-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+          "timeStamp": 1567143593549
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 9,
+          "description": "A05 saves the form",
+          "duration": 680,
+          "startTime": "2019-08-29T23:39:52.867-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+              "timeStamp": 1567143593547
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "description": "Then the user should be redirected to the success page",
+      "duration": 31,
+      "startTime": "2019-08-29T23:39:53.549-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+          "timeStamp": 1567143593580
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 11,
+          "description": "Should be on the success page",
+          "duration": 29,
+          "startTime": "2019-08-29T23:39:53.550-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "c7d5a1e242de0056965468ca133de516b03cc8c5ab1186c7b55ebc88ba74065a.png",
+              "timeStamp": 1567143593579
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "register-new-user",
+    "storyName": "Register New User",
+    "path": "src/test/resources/features/RegisterNewUser.feature",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Features/Register New User",
+    "type": "feature"
+  },
+  "title": "Suffix Field is not required",
+  "backgroundTitle": "",
+  "backgroundDescription": "",
+  "tags": [
+    {
+      "name": "Register New User",
+      "type": "feature"
+    }
+  ],
+  "startTime": "2019-08-29T23:39:45.659-06:00[America/Denver]",
+  "duration": 7921,
+  "projectKey": "",
+  "sessionId": "a648d727dfb7b41012f8fa7ab84fe20c",
+  "driver": "chrome",
+  "manual": false,
+  "testSource": "Cucumber",
+  "result": "SUCCESS"
+}

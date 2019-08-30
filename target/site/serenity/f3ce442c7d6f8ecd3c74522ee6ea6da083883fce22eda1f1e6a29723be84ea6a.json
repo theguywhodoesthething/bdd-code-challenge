@@ -1,0 +1,97 @@
+{
+  "name": "Navigate to the testing page",
+  "id": "register-new-user;navigate-to-the-testing-page",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given there is a user on the registration page",
+      "duration": 4613,
+      "startTime": "2019-08-29T23:39:24.144-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+          "timeStamp": 1567143568757
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 2,
+          "description": "A01 a06 is on the registration page",
+          "duration": 4305,
+          "startTime": "2019-08-29T23:39:24.446-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+              "timeStamp": 1567143568750
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "description": "Then the register new user page should be displayed",
+      "duration": 382,
+      "startTime": "2019-08-29T23:39:28.758-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+          "timeStamp": 1567143569140
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 4,
+          "description": "Should be on the registration page",
+          "duration": 378,
+          "startTime": "2019-08-29T23:39:28.760-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+              "timeStamp": 1567143569138
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "register-new-user",
+    "storyName": "Register New User",
+    "path": "src/test/resources/features/RegisterNewUser.feature",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Features/Register New User",
+    "type": "feature"
+  },
+  "title": "Navigate to the testing page",
+  "backgroundTitle": "",
+  "backgroundDescription": "",
+  "tags": [
+    {
+      "name": "Register New User",
+      "type": "feature"
+    }
+  ],
+  "startTime": "2019-08-29T23:39:24.033-06:00[America/Denver]",
+  "duration": 5109,
+  "projectKey": "",
+  "sessionId": "a19df10b8e89b19b8476d8be9d39202d",
+  "driver": "chrome",
+  "manual": false,
+  "testSource": "Cucumber",
+  "result": "SUCCESS"
+}

@@ -1,0 +1,208 @@
+{
+  "name": "First Name Field only accepts 15 characters",
+  "id": "register-new-user;first-name-field-only-accepts-15-characters",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given there is a user on the registration page",
+      "duration": 3100,
+      "startTime": "2019-08-29T23:39:37.828-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+          "timeStamp": 1567143580928
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 2,
+          "description": "A01 a06 is on the registration page",
+          "duration": 3089,
+          "startTime": "2019-08-29T23:39:37.837-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+              "timeStamp": 1567143580926
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "description": "And all required fields are filled out except for the first name field",
+      "duration": 3548,
+      "startTime": "2019-08-29T23:39:40.928-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "7a7b0321c960d890e064038689dd324757c57315e7f863d2c53b16819bb39f37.png",
+          "timeStamp": 1567143584476
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 4,
+          "description": "A02 fills out all required fields",
+          "duration": 3106,
+          "startTime": "2019-08-29T23:39:40.929-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "51411f63440fb15b30cab7485cbec6b2f02edf4ff83982fe3b398fb6c09baf60.png",
+              "timeStamp": 1567143584035
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 5,
+          "description": "A03 except for: FIRST_NAME",
+          "duration": 438,
+          "startTime": "2019-08-29T23:39:44.037-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "7a7b0321c960d890e064038689dd324757c57315e7f863d2c53b16819bb39f37.png",
+              "timeStamp": 1567143584475
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "description": "And all checkboxes are checked",
+      "duration": 571,
+      "startTime": "2019-08-29T23:39:44.477-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "163dd4bb17b57835ae006107c91b6b943ec97e3b3a7011a3ca2b0b706c703d08.png",
+          "timeStamp": 1567143585048
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 7,
+          "description": "A04 checks all checkboxes",
+          "duration": 568,
+          "startTime": "2019-08-29T23:39:44.479-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "163dd4bb17b57835ae006107c91b6b943ec97e3b3a7011a3ca2b0b706c703d08.png",
+              "timeStamp": 1567143585046
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "description": "When the user fills in the first name field with EXTRATERRESTRIAL",
+      "duration": 504,
+      "startTime": "2019-08-29T23:39:45.048-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "25bd7d98f82491a01b0f1ef79e330cb6c41b7a3c2477db152bbc87488f20c9c0.png",
+          "timeStamp": 1567143585552
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 9,
+          "description": "A07 fills out: FIRST_NAME, EXTRATERRESTRIAL",
+          "duration": 498,
+          "startTime": "2019-08-29T23:39:45.052-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "25bd7d98f82491a01b0f1ef79e330cb6c41b7a3c2477db152bbc87488f20c9c0.png",
+              "timeStamp": 1567143585550
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "description": "Then the first name field should contain EXTRATERRESTRIA",
+      "duration": 30,
+      "startTime": "2019-08-29T23:39:45.552-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "25bd7d98f82491a01b0f1ef79e330cb6c41b7a3c2477db152bbc87488f20c9c0.png",
+          "timeStamp": 1567143585582
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 11,
+          "description": "A08 should see: EXTRATERRESTRIA, FIRST_NAME",
+          "duration": 27,
+          "startTime": "2019-08-29T23:39:45.554-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "25bd7d98f82491a01b0f1ef79e330cb6c41b7a3c2477db152bbc87488f20c9c0.png",
+              "timeStamp": 1567143585581
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "register-new-user",
+    "storyName": "Register New User",
+    "path": "src/test/resources/features/RegisterNewUser.feature",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Features/Register New User",
+    "type": "feature"
+  },
+  "title": "First Name Field only accepts 15 characters",
+  "backgroundTitle": "",
+  "backgroundDescription": "",
+  "tags": [
+    {
+      "name": "Register New User",
+      "type": "feature"
+    }
+  ],
+  "startTime": "2019-08-29T23:39:37.826-06:00[America/Denver]",
+  "duration": 7757,
+  "projectKey": "",
+  "sessionId": "f602046b331ac16521fbe73b15d58e52",
+  "driver": "chrome",
+  "manual": false,
+  "testSource": "Cucumber",
+  "result": "SUCCESS"
+}

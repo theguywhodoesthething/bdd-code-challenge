@@ -1,0 +1,208 @@
+{
+  "name": "First Name Field is required",
+  "id": "register-new-user;first-name-field-is-required",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given there is a user on the registration page",
+      "duration": 3419,
+      "startTime": "2019-08-29T23:39:29.217-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+          "timeStamp": 1567143572636
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 2,
+          "description": "A01 a06 is on the registration page",
+          "duration": 3409,
+          "startTime": "2019-08-29T23:39:29.226-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "82591e400ad633e6f3f71b40e31708bbaed8707fa464c7c965529b43ba6f459d.png",
+              "timeStamp": 1567143572635
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "description": "And all required fields are filled out except for the first name field",
+      "duration": 3591,
+      "startTime": "2019-08-29T23:39:32.637-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "5a01b60394cab124fd1aeb397050aa9f4485eb5245efd5ba48ef108a948e431d.png",
+          "timeStamp": 1567143576228
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 4,
+          "description": "A02 fills out all required fields",
+          "duration": 3177,
+          "startTime": "2019-08-29T23:39:32.639-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "a38cd3122b97725e99260009eff46defaae345cc606bef09d9e5b616be579080.png",
+              "timeStamp": 1567143575816
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 5,
+          "description": "A03 except for: FIRST_NAME",
+          "duration": 403,
+          "startTime": "2019-08-29T23:39:35.823-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "5a01b60394cab124fd1aeb397050aa9f4485eb5245efd5ba48ef108a948e431d.png",
+              "timeStamp": 1567143576226
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "description": "And all checkboxes are checked",
+      "duration": 520,
+      "startTime": "2019-08-29T23:39:36.229-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "e1fe72b7c02cfe3d77e5b44883085ec775ad8f21fff2a886ea699df4248ca083.png",
+          "timeStamp": 1567143576749
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 7,
+          "description": "A04 checks all checkboxes",
+          "duration": 516,
+          "startTime": "2019-08-29T23:39:36.231-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "e1fe72b7c02cfe3d77e5b44883085ec775ad8f21fff2a886ea699df4248ca083.png",
+              "timeStamp": 1567143576747
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "description": "When the user saves the form",
+      "duration": 592,
+      "startTime": "2019-08-29T23:39:36.749-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "f30be23ebec93fb90b041ce57f53bd1424b2cc103c78e1d8d048de75c163f7a2.png",
+          "timeStamp": 1567143577341
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 9,
+          "description": "A05 saves the form",
+          "duration": 588,
+          "startTime": "2019-08-29T23:39:36.751-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "f30be23ebec93fb90b041ce57f53bd1424b2cc103c78e1d8d048de75c163f7a2.png",
+              "timeStamp": 1567143577339
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "description": "Then an error message should display indicating that the first name field requires a value",
+      "duration": 409,
+      "startTime": "2019-08-29T23:39:37.342-06:00[America/Denver]",
+      "screenshots": [
+        {
+          "screenshot": "f30be23ebec93fb90b041ce57f53bd1424b2cc103c78e1d8d048de75c163f7a2.png",
+          "timeStamp": 1567143577750
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 11,
+          "description": "Should see first name error message",
+          "duration": 406,
+          "startTime": "2019-08-29T23:39:37.343-06:00[America/Denver]",
+          "screenshots": [
+            {
+              "screenshot": "f30be23ebec93fb90b041ce57f53bd1424b2cc103c78e1d8d048de75c163f7a2.png",
+              "timeStamp": 1567143577749
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "register-new-user",
+    "storyName": "Register New User",
+    "path": "src/test/resources/features/RegisterNewUser.feature",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Features/Register New User",
+    "type": "feature"
+  },
+  "title": "First Name Field is required",
+  "backgroundTitle": "",
+  "backgroundDescription": "",
+  "tags": [
+    {
+      "name": "Register New User",
+      "type": "feature"
+    }
+  ],
+  "startTime": "2019-08-29T23:39:29.215-06:00[America/Denver]",
+  "duration": 8536,
+  "projectKey": "",
+  "sessionId": "e6262b2561ec5703cdeba71af44b1286",
+  "driver": "chrome",
+  "manual": false,
+  "testSource": "Cucumber",
+  "result": "SUCCESS"
+}

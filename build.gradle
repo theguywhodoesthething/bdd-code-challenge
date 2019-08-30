@@ -1,0 +1,60 @@
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+ext{
+    serenity_version = "2.0.41"
+    slf4j_version = '1.6.4'
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.30")
+    }
+}
+
+apply plugin: "java"
+apply plugin: "idea"
+apply plugin: "net.serenity-bdd.aggregator"
+
+dependencies {
+    compile localGroovy()
+    compile "net.serenity-bdd:serenity-core:$serenity_version"
+    compile "net.serenity-bdd:serenity-junit:$serenity_version"
+    compile "net.serenity-bdd:serenity-rest-assured:$serenity_version"
+    compile "net.serenity-bdd:serenity-cucumber:1.9.31"
+    compile group: 'net.serenity-bdd', name: 'serenity-gradle-plugin', version: serenity_version
+    compile group: 'net.serenity-bdd', name: 'serenity-reports', version: serenity_version
+    compile group: 'net.serenity-bdd', name: 'serenity-model', version: serenity_version
+    compile group: 'net.serenity-bdd', name: 'serenity-stats', version: serenity_version
+    compile 'org.codehaus.groovy:groovy-all:2.3.10'
+    compile 'junit:junit:4.12'
+    compile "org.slf4j:slf4j-simple:$slf4j_version"
+    compile "org.slf4j:log4j-over-slf4j:$slf4j_version"
+    compile "org.assertj:assertj-core:3.12.2"
+}
+
+group = 'bdd-code-sample'
+version = '0.8.0-SNAPSHOT'
+description = 'bdd-code-sample'
+sourceCompatibility = '1.8'
+
+test {
+    testLogging {
+        showStandardStreams = true
+    }
+    /* Pass all system properties: */
+    systemProperties System.getProperties()
+}
+
+task copyDeps(type: Copy) {
+    from configurations.runtime
+    into project.projectDir.path+"/lib"
+}
+
+gradle.startParameter.continueOnFailure = true
