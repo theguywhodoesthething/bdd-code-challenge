@@ -18,7 +18,7 @@ download a compatible webdriver from the [Selenium resource page](https://www.se
 
 To run with a webdriver other than Chrome, pass the desired driver as a system property.
 
-    gradlew clean test -Dwebriver.driver=firefox
+    gradlew clean test -Dwebdriver.driver=firefox
 
 To run headless, pass `headless.mode=true` as a system property.
 
