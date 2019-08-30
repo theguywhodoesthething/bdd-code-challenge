@@ -35,10 +35,10 @@ public class RegisterNewUserPage extends PageObject {
         for(Field field : Field.values()) {
             WebElementFacade element = element(By.id(field.getId()));
 
-            if(element.getTagName().equals("select")) {
-                int index = (int) (Math.random() * element.getSelectOptions().size());
+            if(field == Field.SUFFIX || field == Field.STATE) {
+                int index = random.nextInt(element.getSelectOptions().size() - 1) + 1;   // don't get 0 index
                 element.selectByIndex(index);
-            } else if (element.getAttribute("id").equals(Field.EMAIL.getId())) {
+            } else if (field == Field.EMAIL) {
                 element.type(
                   String.format("%s@%s.%s",
                           RandomStringUtils.randomAlphabetic(5),
