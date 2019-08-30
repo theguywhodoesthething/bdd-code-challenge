@@ -20,9 +20,9 @@ To run with a webdriver other than Chrome, pass the desired driver as an environ
 
     gradlew clean test -Dwebriver.driver=firefox
 
-To run headless, pass `headless=true` as an environment variable.
+To run headless, pass `headless.mode=true` as an environment variable.
 
-    gradlew clean test -Dheadless=true
+    gradlew clean test -Dheadless.mode=true
 
 ### Viewing the Report
 
